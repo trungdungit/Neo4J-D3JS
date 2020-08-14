@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8"/>
+    <link rel="apple-touch-icon" sizes="76x76" href="{{ url_for('static', filename='assets/img/favicon_cmc.ico') }}">
+    {#    <link rel="icon" type="image/png" href="https://cist.cmc.com.vn/wp-content/uploads/2018/12/logo-cmc.png"#}
+    {#          sizes="32x23"/>#}
+
+    <link rel="shortcut icon" type="image/png" href="{{ url_for('static', filename='assets/img/favicon_cmc.ico') }}">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    {#    <meta name="csrf-token" content="{{ csrf_token() }}">#}
+
+    <title>CMC-CIST EKG</title>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no'
+          name='viewport'/>
+    {% include 'components/header.html' %}
+</head>
+
+<body>
+
+<div class="wrapper ">
+    <div class="sidebar" data-color="green" data-background-color="white"
+         data-image="{{ url_for('static', filename='assets/img/background.jpg') }}">
+
+        {% block logo %}
+
+        {% endblock %}
+        <div class="sidebar-wrapper">
+            <ul class="nav">
+                <div class="list-button">
+                    <button type="button" class="btn btn-person" data-toggle="modal" data-target="#labelsModal">Person
+                    </button>
+                    <button type="button" class="btn btn-page" data-toggle="modal" data-target="#labelsModal">Page
+                    </button>
+                    <button type="button" class="btn btn-group" data-toggle="modal" data-target="#labelsModal">Group
+                    </button>
+                    <button type="button" class="btn btn-status" data-toggle="modal" data-target="#labelsModal">Status
+                    </button>
+                    <button type="button" class="btn btn-comment" data-toggle="modal" data-target="#labelsModal">
+                        Comment
+                    </button>
+                    <button type="button" class="btn btn-place" data-toggle="modal" data-target="#labelsModal">Place
+                    </button>
+                    <button type="button" class="btn btn-life-event" data-toggle="modal" data-target="#labelsModal">
+                        Life_Event
+                    </button>
+                    <button type="button" class="btn btn-image" data-toggle="modal" data-target="#labelsModal">Image
+                    </button>
+                    <button type="button" class="btn btn-album" data-toggle="modal" data-target="#labelsModal">Album
+                    </button>
+                </div>
+                <div class="capture-graph text-center">
+                    <button type="button" class="button-capture btn btn-success"><i class="fa fa-download"></i>Save Graph</button>
+                </div>
+
+
+            </ul>
+            {% block profileimage %}
+
+            {% endblock %}
+            <div class="profile-sidebar">
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="main-panel">
+        <!-- Navbar -->
+
+        <nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top " id="navigation-example">
+            <div class="container-fluid">
+                <div class="navbar-wrapper">
+                    <a class="btn btn-primary" href="/realtime-camera">Realtime</a>
+                    <a class="btn btn-primary" href="/face_upload">Face recognition</a>
+
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index"
+                        aria-expanded="false" aria-label="Toggle navigation" data-target="#navigation-example">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="navbar-toggler-icon icon-bar"></span>
+                    <span class="navbar-toggler-icon icon-bar"></span>
+                    <span class="navbar-toggler-icon icon-bar"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end">
+                    {% block header %}
+
+                    {% endblock %}
+                    <div class="input-group no-border">
+                        <span class="inline-label">Extension: </span>
+                        <input type="number" min="10" value="20" name="limit" class="form-control"
+                               placeholder="Text Search...">
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+
+        <!-- End Navbar -->
+        <div class="content">
+
+            <div id="neo4jd3" style="height: 90vh">
+                <div class="video-demo animated fadeIn delay-1s">
+                    <h1>Introduction</h1>
+                    <video id="player" playsinline controls>
+                        <source src="{{ url_for('static', filename='videos/demo.mp4') }}" type="video/mp4"/>
+
+                    </video>
+                    {#                    <button class="btn btn-success">Ok</button>#}
+                </div>
+
+            </div>
+
+        </div>
+
+        <footer class="footer">
+            <div class="container-fluid">
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <div class="widget block_widget">
+                            <span class="widget-title">Thông tin chi tiết</span>
+                            <div class="is-divider small"></div>
+                            <p>Trụ sở: Tầng 4 - Tòa nhà CMC, 11 Duy Tân, Cầu Giấy, Hà Nội.<br>Điện Thoại:&nbsp;024 710
+                                65555<br>Fax:&nbsp;024 710 65555<br>Email: cmccist@gmail.com</p>
+                            <p></p>
+
+
+                        </div>
+
+                    </div>
+                    <div class="col-md-6">
+                        <div class="widget block_widget">
+                            <span class="widget-title">Copyright</span>
+                            <div class="is-divider small"></div>
+                            <p>© 2019 by
+                                <a href="https://cist.cmc.com.vn   " target="_blank">CMC-CIST</a>.</p>
+                            <p></p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        {% include 'components/modal.html' %}
+    </div>
+</div>
+</body>
+
+{% include 'components/scripts.html' %}
+{% block scripts %}
+
+{% endblock %}
+
+</html>

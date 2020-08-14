@@ -1,0 +1,7 @@
+Flask==1.0.3
+neo4j==1.7.4
+numpy==1.16.4
+opencv-python==4.1.0.25
+Pillow==6.0.0
+gunicorn==20.0.4
+requests==2.22.0

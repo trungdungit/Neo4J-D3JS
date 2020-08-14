@@ -1,0 +1,39 @@
+version: '3'
+
+services:
+  neo4jd3:
+    image: neo4jd3:latest
+    restart: always
+    environment:
+      - HOST=124.158.1.123
+      - PORT=7001
+      - NEO4J_USERNAME=neo4j
+      - NEO4J_PASSWORD=datalake
+    build: .
+    volumes:
+      - static_volume_neo4j:/docker/neo4jd3/static
+    networks:  # <-- here
+      - nginx_neo4jd3_network
+      - neo4j_network
+
+  nginx_neo4jd3:
+    image: nginx:1.13
+    ports:
+      - 5001:80
+    volumes:
+      - ./config/nginx/conf.d:/etc/nginx/conf.d
+      - static_volume:/docker/neo4jd3/static
+    networks:
+      - nginx_neo4jd3_network
+      - neo4j_network
+    depends_on:
+      - neo4jd3
+
+networks:
+  neo4j_network:
+    driver: bridge
+  nginx_neo4jd3_network:
+    driver: bridge
+
+volumes:
+  static_volume_neo4j:  # <-- declare the static volume

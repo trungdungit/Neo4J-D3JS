@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8"/>
+    <link rel="apple-touch-icon" sizes="76x76" href="{{ url_for('static', filename='assets/img/apple-icon.png') }}">
+    <link rel="shortcut icon" type="image/png" href="{{ url_for('static', filename='assets/img/logocmc.png') }}">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+
+    <title>Face Upload Demo</title>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no'
+          name='viewport'/>
+
+    <!-- CSS Just for demo purpose, don't include it in your project -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/face_upload.css') }}">
+</head>
+
+<body>
+    <div class="file-upload">
+        <button class="file-upload-btn" type="button" onclick="$('.file-upload-input').trigger( 'click' )">Thêm ảnh
+        </button>
+
+        <div class="image-upload-wrap">
+            <form id="faceSubitForm" action="face_upload" method="post" enctype="multipart/form-data">
+                <input name="image" class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*"/>
+            </form>
+{#            <input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*"/>#}
+            <div class="drag-text">
+                <h3>Kéo thả hoặc chọn một bức ảnh</h3>
+            </div>
+        </div>
+        <div class="file-upload-content">
+            <img class="file-upload-image" src="#" alt="your image"/>
+            <div class="image-title-wrap">
+                <button type="button" onclick="removeUpload()" class="remove-image">Bỏ <span class="image-title">Uploaded Image</span>
+                </button>
+            </div>
+        </div>
+        <div>
+            <br>
+            <button class="file-upload-btn" onclick="faceUpload()" type="button">Nhận diện khuôn mặt</button>
+            <p class="description">Upload bức ảnh có chứa khuôn mặt người cần nhận diện, kết quả nhận diện được hiển thị tại địa chỉ
+                <a href="http://10.0.8.14:7002/realtime-camera">kết quả</a>. Link hướng dẫn sử dụng demo
+                <a href="https://drive.google.com/file/d/0B5RIdXaOtoL2NG1tWGtaZUZzSFNqNGxZb2RNQUFOWGVRRC1n/view?usp=sharing">Hướng dẫn</a>.
+                Ngoài ra có thể tải app demo Android <a href="https://drive.google.com/file/d/1VLWvg_TWTDeB2DPRn1mhIzNtaMyRCBc4/view?usp=sharing">App</a>,
+                hướng dẫn chi tiết được mô tả trong file hướng dẫn</p>
+        </div>
+    </div>
+</body>
+<script class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script>
+    function readURL(input) {
+        if (input.files && input.files[0]) {
+
+            var reader = new FileReader();
+
+            reader.onload = function (e) {
+                $('.image-upload-wrap').hide();
+
+                $('.file-upload-image').attr('src', e.target.result);
+                $('.file-upload-content').show();
+
+                $('.image-title').html(input.files[0].name);
+            };
+
+            reader.readAsDataURL(input.files[0]);
+
+        } else {
+            removeUpload();
+        }
+    }
+
+    function removeUpload() {
+        $('.file-upload-input').replaceWith($('.file-upload-input').clone());
+        $('.file-upload-content').hide();
+        $('.image-upload-wrap').show();
+    }
+
+    $('.image-upload-wrap').bind('dragover', function () {
+        $('.image-upload-wrap').addClass('image-dropping');
+    });
+    $('.image-upload-wrap').bind('dragleave', function () {
+        $('.image-upload-wrap').removeClass('image-dropping');
+    });
+    
+    function faceUpload() {
+        $('#faceSubitForm').submit();
+    }
+</script>

@@ -1,0 +1,30 @@
+<!--     Fonts and icons     -->
+<link rel="stylesheet" type="text/css"
+      href="{{ url_for('static', filename='css/font_googleapis.css') }}"/>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/font-awesome.min.css') }}">
+<link href="{{ url_for('static', filename='assets/css/material-dashboard.css') }}?v=2.0.0" rel="stylesheet"/>
+<!-- CSS Just for demo purpose, don't include it in your project -->
+<link href="{{ url_for('static', filename='assets/demo/demo.css') }}" rel="stylesheet"/>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/neo4jd3.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}?v=1.3">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/animate.css') }}">
+<!-- Icheck -->
+<link rel="stylesheet" href="{{ url_for('static', filename='assets/iCheck/all.css') }}">
+<!-- Plyr -->
+<link rel="stylesheet" href="{{ url_for('static', filename='css/plyr.css') }}"/>
+ <!-- Waitme -->
+    <link href="{{ url_for('static', filename='assets/waitMe/waitMe.css') }}" rel="stylesheet" />
+
+<script type="text/javascript">
+    function change_node_color() {
+        $('.btn-person').css('background-color', labels["Person"]["fillColor"])
+        $('.btn-page').css('background-color', labels["Page"]["fillColor"])
+        $('.btn-group').css('background-color', labels["Group"]["fillColor"])
+        $('.btn-album').css('background-color', labels["Album"]["fillColor"])
+        $('.btn-image').css('background-color', labels["Image"]["fillColor"])
+        $('.btn-place').css('background-color', labels["Place"]["fillColor"])
+        $('.btn-status').css('background-color', labels["Status"]["fillColor"])
+        $('.btn-comment').css('background-color', labels["Comment"]["fillColor"])
+        $('.btn-life-event').css('background-color', labels["Life_Event"]["fillColor"])
+    }
+</script>

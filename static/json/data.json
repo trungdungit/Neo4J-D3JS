@@ -1,0 +1,1290 @@
+{
+  "results": [
+    {
+      "columns": [
+        "user",
+        "entity"
+      ],
+      "data": [
+        {
+          "graph": {
+            "nodes": [
+              {
+                "id": 111998,
+                "labels": [
+                  "Person"
+                ],
+                "centerNode": "111998",
+                "properties": {
+                  "skills": "\u0110\u01a1n gi\u1ea3n nh\u01b0 \u0111an r\u1ed5!!!!",
+                  "Address": [
+                    "\u0110\u1ee9c Linh - B\u00ecnh Thu\u1eadn"
+                  ],
+                  "fb_id": "100003775376944",
+                  "link": "/yeuyeu.tieu.7",
+                  "name": "\u0110inh Ph\u1ea1m S\u1edf K\u1ef3",
+                  "Facebook": [
+                    " /yeuyeu.tieu.7"
+                  ],
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              },
+              {
+                "id": 152475,
+                "labels": [
+                  "Page"
+                ],
+                "centerNode": "111998",
+                "properties": {
+                  "name": "Ngo\u0323c Hoa Handmade",
+                  "fb_id": "198841560475258",
+                  "url": "/NgocHoaHandmade87/",
+                  "update_at": "2019-05-15 13:29:00"
+                }
+              },
+              {
+                "id": 111998,
+                "labels": [
+                  "Person"
+                ],
+                "centerNode": "111998",
+                "properties": {
+                  "skills": "\u0110\u01a1n gi\u1ea3n nh\u01b0 \u0111an r\u1ed5!!!!",
+                  "Address": [
+                    "\u0110\u1ee9c Linh - B\u00ecnh Thu\u1eadn"
+                  ],
+                  "fb_id": "100003775376944",
+                  "link": "/yeuyeu.tieu.7",
+                  "name": "\u0110inh Ph\u1ea1m S\u1edf K\u1ef3",
+                  "Facebook": [
+                    " /yeuyeu.tieu.7"
+                  ],
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              },
+              {
+                "id": 150130,
+                "labels": [
+                  "Page"
+                ],
+                "centerNode": "111998",
+                "properties": {
+                  "name": "Mang thai l\u1ea7n \u0111\u1ea7u",
+                  "fb_id": "623825314390542",
+                  "url": "/mangthailandau.kids/",
+                  "update_at": "2019-05-22 13:55:00"
+                }
+              },
+              {
+                "id": 111998,
+                "labels": [
+                  "Person"
+                ],
+                "centerNode": "111998",
+                "properties": {
+                  "skills": "\u0110\u01a1n gi\u1ea3n nh\u01b0 \u0111an r\u1ed5!!!!",
+                  "Address": [
+                    "\u0110\u1ee9c Linh - B\u00ecnh Thu\u1eadn"
+                  ],
+                  "fb_id": "100003775376944",
+                  "link": "/yeuyeu.tieu.7",
+                  "name": "\u0110inh Ph\u1ea1m S\u1edf K\u1ef3",
+                  "Facebook": [
+                    " /yeuyeu.tieu.7"
+                  ],
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              },
+              {
+                "id": 96596,
+                "labels": [
+                  "Page"
+                ],
+                "centerNode": "111998",
+                "properties": {
+                  "name": "Babystore Vietnam",
+                  "pagerank": 1.5747029713878873,
+                  "fb_id": "376788915744955",
+                  "url": "/babystore.vietnam/",
+                  "update_at": "2019-05-15 13:29:00"
+                }
+              },
+              {
+                "id": 111998,
+                "labels": [
+                  "Person"
+                ],
+                "centerNode": "111998",
+                "properties": {
+                  "skills": "\u0110\u01a1n gi\u1ea3n nh\u01b0 \u0111an r\u1ed5!!!!",
+                  "Address": [
+                    "\u0110\u1ee9c Linh - B\u00ecnh Thu\u1eadn"
+                  ],
+                  "fb_id": "100003775376944",
+                  "link": "/yeuyeu.tieu.7",
+                  "name": "\u0110inh Ph\u1ea1m S\u1edf K\u1ef3",
+                  "Facebook": [
+                    " /yeuyeu.tieu.7"
+                  ],
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              },
+              {
+                "id": 152474,
+                "labels": [
+                  "Page"
+                ],
+                "centerNode": "111998",
+                "properties": {
+                  "name": "Shop N\u00e2u",
+                  "fb_id": "1608934182693265",
+                  "url": "/ShopNau/",
+                  "update_at": "2019-05-16 14:44:00"
+                }
+              },
+              {
+                "id": 111998,
+                "labels": [
+                  "Person"
+                ],
+                "centerNode": "111998",
+                "properties": {
+                  "skills": "\u0110\u01a1n gi\u1ea3n nh\u01b0 \u0111an r\u1ed5!!!!",
+                  "Address": [
+                    "\u0110\u1ee9c Linh - B\u00ecnh Thu\u1eadn"
+                  ],
+                  "fb_id": "100003775376944",
+                  "link": "/yeuyeu.tieu.7",
+                  "name": "\u0110inh Ph\u1ea1m S\u1edf K\u1ef3",
+                  "Facebook": [
+                    " /yeuyeu.tieu.7"
+                  ],
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              },
+              {
+                "id": 152473,
+                "labels": [
+                  "Page"
+                ],
+                "centerNode": "111998",
+                "properties": {
+                  "name": "Shop M\u1eb9 - B\u1ea7u",
+                  "fb_id": "887657907937946",
+                  "url": "/Shop.Me.Bau/",
+                  "update_at": "2019-05-15 13:29:00"
+                }
+              },
+              {
+                "id": 111998,
+                "labels": [
+                  "Person"
+                ],
+                "centerNode": "111998",
+                "properties": {
+                  "skills": "\u0110\u01a1n gi\u1ea3n nh\u01b0 \u0111an r\u1ed5!!!!",
+                  "Address": [
+                    "\u0110\u1ee9c Linh - B\u00ecnh Thu\u1eadn"
+                  ],
+                  "fb_id": "100003775376944",
+                  "link": "/yeuyeu.tieu.7",
+                  "name": "\u0110inh Ph\u1ea1m S\u1edf K\u1ef3",
+                  "Facebook": [
+                    " /yeuyeu.tieu.7"
+                  ],
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              },
+              {
+                "id": 152472,
+                "labels": [
+                  "Page"
+                ],
+                "centerNode": "111998",
+                "properties": {
+                  "name": "Mom & Baby Plus",
+                  "fb_id": "965872080137732",
+                  "url": "/momandbabyplus/",
+                  "update_at": "2019-05-15 13:29:00"
+                }
+              },
+              {
+                "id": 111998,
+                "labels": [
+                  "Person"
+                ],
+                "centerNode": "111998",
+                "properties": {
+                  "skills": "\u0110\u01a1n gi\u1ea3n nh\u01b0 \u0111an r\u1ed5!!!!",
+                  "Address": [
+                    "\u0110\u1ee9c Linh - B\u00ecnh Thu\u1eadn"
+                  ],
+                  "fb_id": "100003775376944",
+                  "link": "/yeuyeu.tieu.7",
+                  "name": "\u0110inh Ph\u1ea1m S\u1edf K\u1ef3",
+                  "Facebook": [
+                    " /yeuyeu.tieu.7"
+                  ],
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              },
+              {
+                "id": 55389,
+                "labels": [
+                  "Page"
+                ],
+                "centerNode": "111998",
+                "properties": {
+                  "name": "Bin & B\u00f4ng - H\u00e0ng hi\u1ec7u xu\u1ea5t d\u01b0",
+                  "pagerank": 1.9362389786168932,
+                  "fb_id": "197108560696675",
+                  "url": "/binandbong/",
+                  "update_at": "2019-05-15 13:29:00"
+                }
+              },
+              {
+                "id": 111998,
+                "labels": [
+                  "Person"
+                ],
+                "centerNode": "111998",
+                "properties": {
+                  "skills": "\u0110\u01a1n gi\u1ea3n nh\u01b0 \u0111an r\u1ed5!!!!",
+                  "Address": [
+                    "\u0110\u1ee9c Linh - B\u00ecnh Thu\u1eadn"
+                  ],
+                  "fb_id": "100003775376944",
+                  "link": "/yeuyeu.tieu.7",
+                  "name": "\u0110inh Ph\u1ea1m S\u1edf K\u1ef3",
+                  "Facebook": [
+                    " /yeuyeu.tieu.7"
+                  ],
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              },
+              {
+                "id": 21792,
+                "labels": [
+                  "Page"
+                ],
+                "centerNode": "111998",
+                "properties": {
+                  "name": "Nh\u1eefng C\u00e2u N\u00f3i Hay Nh\u1ee9c Nh\u00f3i",
+                  "pagerank": 17.371537408139552,
+                  "fb_id": "355117167903718",
+                  "url": "/haynhucnhoi/",
+                  "update_at": "2019-05-22 13:59:00"
+                }
+              },
+              {
+                "id": 111998,
+                "labels": [
+                  "Person"
+                ],
+                "centerNode": "111998",
+                "properties": {
+                  "skills": "\u0110\u01a1n gi\u1ea3n nh\u01b0 \u0111an r\u1ed5!!!!",
+                  "Address": [
+                    "\u0110\u1ee9c Linh - B\u00ecnh Thu\u1eadn"
+                  ],
+                  "fb_id": "100003775376944",
+                  "link": "/yeuyeu.tieu.7",
+                  "name": "\u0110inh Ph\u1ea1m S\u1edf K\u1ef3",
+                  "Facebook": [
+                    " /yeuyeu.tieu.7"
+                  ],
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              },
+              {
+                "id": 152471,
+                "labels": [
+                  "Page"
+                ],
+                "centerNode": "111998",
+                "properties": {
+                  "name": "Do\u011fadan Tasar\u0131mlar",
+                  "fb_id": "911065478967081",
+                  "url": "/dogadankareler/",
+                  "update_at": "2019-05-15 13:29:00"
+                }
+              },
+              {
+                "id": 111998,
+                "labels": [
+                  "Person"
+                ],
+                "centerNode": "111998",
+                "properties": {
+                  "skills": "\u0110\u01a1n gi\u1ea3n nh\u01b0 \u0111an r\u1ed5!!!!",
+                  "Address": [
+                    "\u0110\u1ee9c Linh - B\u00ecnh Thu\u1eadn"
+                  ],
+                  "fb_id": "100003775376944",
+                  "link": "/yeuyeu.tieu.7",
+                  "name": "\u0110inh Ph\u1ea1m S\u1edf K\u1ef3",
+                  "Facebook": [
+                    " /yeuyeu.tieu.7"
+                  ],
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              },
+              {
+                "id": 152470,
+                "labels": [
+                  "Page"
+                ],
+                "centerNode": "111998",
+                "properties": {
+                  "name": "Suti Collection",
+                  "fb_id": "895350590549883",
+                  "url": "/SutiCollection/",
+                  "update_at": "2019-05-15 13:29:00"
+                }
+              },
+              {
+                "id": 111998,
+                "labels": [
+                  "Person"
+                ],
+                "centerNode": "111998",
+                "properties": {
+                  "skills": "\u0110\u01a1n gi\u1ea3n nh\u01b0 \u0111an r\u1ed5!!!!",
+                  "Address": [
+                    "\u0110\u1ee9c Linh - B\u00ecnh Thu\u1eadn"
+                  ],
+                  "fb_id": "100003775376944",
+                  "link": "/yeuyeu.tieu.7",
+                  "name": "\u0110inh Ph\u1ea1m S\u1edf K\u1ef3",
+                  "Facebook": [
+                    " /yeuyeu.tieu.7"
+                  ],
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              },
+              {
+                "id": 152469,
+                "labels": [
+                  "Page"
+                ],
+                "centerNode": "111998",
+                "properties": {
+                  "name": "\u0110\u1ed3 b\u1ea7u Th\u00e1i gi\u00e1 r\u1ebb",
+                  "fb_id": "1551293378509403",
+                  "url": "/DoBauThaiRe/",
+                  "update_at": "2019-05-15 13:29:00"
+                }
+              },
+              {
+                "id": 111998,
+                "labels": [
+                  "Person"
+                ],
+                "centerNode": "111998",
+                "properties": {
+                  "skills": "\u0110\u01a1n gi\u1ea3n nh\u01b0 \u0111an r\u1ed5!!!!",
+                  "Address": [
+                    "\u0110\u1ee9c Linh - B\u00ecnh Thu\u1eadn"
+                  ],
+                  "fb_id": "100003775376944",
+                  "link": "/yeuyeu.tieu.7",
+                  "name": "\u0110inh Ph\u1ea1m S\u1edf K\u1ef3",
+                  "Facebook": [
+                    " /yeuyeu.tieu.7"
+                  ],
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              },
+              {
+                "id": 152436,
+                "labels": [
+                  "Page"
+                ],
+                "centerNode": "111998",
+                "properties": {
+                  "name": "Marie Claire Id\u00e9es",
+                  "fb_id": "133706446673723",
+                  "url": "/marieclaireidees/",
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              },
+              {
+                "id": 111998,
+                "labels": [
+                  "Person"
+                ],
+                "centerNode": "111998",
+                "properties": {
+                  "skills": "\u0110\u01a1n gi\u1ea3n nh\u01b0 \u0111an r\u1ed5!!!!",
+                  "Address": [
+                    "\u0110\u1ee9c Linh - B\u00ecnh Thu\u1eadn"
+                  ],
+                  "fb_id": "100003775376944",
+                  "link": "/yeuyeu.tieu.7",
+                  "name": "\u0110inh Ph\u1ea1m S\u1edf K\u1ef3",
+                  "Facebook": [
+                    " /yeuyeu.tieu.7"
+                  ],
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              },
+              {
+                "id": 53716,
+                "labels": [
+                  "Page"
+                ],
+                "centerNode": "111998",
+                "properties": {
+                  "name": "Tifany v\u00e1y ng\u1ee7 - \u0111\u1ed3 l\u00f3t cao c\u1ea5p",
+                  "pagerank": 0.8667663076890678,
+                  "fb_id": "286253865100556",
+                  "url": "/shoptifany/",
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              },
+              {
+                "id": 111998,
+                "labels": [
+                  "Person"
+                ],
+                "centerNode": "111998",
+                "properties": {
+                  "skills": "\u0110\u01a1n gi\u1ea3n nh\u01b0 \u0111an r\u1ed5!!!!",
+                  "Address": [
+                    "\u0110\u1ee9c Linh - B\u00ecnh Thu\u1eadn"
+                  ],
+                  "fb_id": "100003775376944",
+                  "link": "/yeuyeu.tieu.7",
+                  "name": "\u0110inh Ph\u1ea1m S\u1edf K\u1ef3",
+                  "Facebook": [
+                    " /yeuyeu.tieu.7"
+                  ],
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              },
+              {
+                "id": 152435,
+                "labels": [
+                  "Page"
+                ],
+                "centerNode": "111998",
+                "properties": {
+                  "name": "Ph\u01b0\u1ee3t 85 & N\u1eafng Tr\u00e0 S\u1eefa - Coffee",
+                  "fb_id": "244277365982854",
+                  "url": "/phuot85coffee/",
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              },
+              {
+                "id": 111998,
+                "labels": [
+                  "Person"
+                ],
+                "centerNode": "111998",
+                "properties": {
+                  "skills": "\u0110\u01a1n gi\u1ea3n nh\u01b0 \u0111an r\u1ed5!!!!",
+                  "Address": [
+                    "\u0110\u1ee9c Linh - B\u00ecnh Thu\u1eadn"
+                  ],
+                  "fb_id": "100003775376944",
+                  "link": "/yeuyeu.tieu.7",
+                  "name": "\u0110inh Ph\u1ea1m S\u1edf K\u1ef3",
+                  "Facebook": [
+                    " /yeuyeu.tieu.7"
+                  ],
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              },
+              {
+                "id": 152434,
+                "labels": [
+                  "Page"
+                ],
+                "centerNode": "111998",
+                "properties": {
+                  "name": "Ph\u01b0\u01a1ng Linh Crafts",
+                  "fb_id": "165553030308779",
+                  "url": "/Ph\u01b0\u01a1ng-Linh-Crafts-165553030308779/",
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              },
+              {
+                "id": 111998,
+                "labels": [
+                  "Person"
+                ],
+                "centerNode": "111998",
+                "properties": {
+                  "skills": "\u0110\u01a1n gi\u1ea3n nh\u01b0 \u0111an r\u1ed5!!!!",
+                  "Address": [
+                    "\u0110\u1ee9c Linh - B\u00ecnh Thu\u1eadn"
+                  ],
+                  "fb_id": "100003775376944",
+                  "link": "/yeuyeu.tieu.7",
+                  "name": "\u0110inh Ph\u1ea1m S\u1edf K\u1ef3",
+                  "Facebook": [
+                    " /yeuyeu.tieu.7"
+                  ],
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              },
+              {
+                "id": 106770,
+                "labels": [
+                  "Page"
+                ],
+                "centerNode": "111998",
+                "properties": {
+                  "name": "Th\u1ebf Gi\u1edbi C\u1ea3m X\u00fac",
+                  "pagerank": 1.0006842136994236,
+                  "fb_id": "945075472277352",
+                  "url": "/TheGioiCamXucFM89/",
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              },
+              {
+                "id": 111998,
+                "labels": [
+                  "Person"
+                ],
+                "centerNode": "111998",
+                "properties": {
+                  "skills": "\u0110\u01a1n gi\u1ea3n nh\u01b0 \u0111an r\u1ed5!!!!",
+                  "Address": [
+                    "\u0110\u1ee9c Linh - B\u00ecnh Thu\u1eadn"
+                  ],
+                  "fb_id": "100003775376944",
+                  "link": "/yeuyeu.tieu.7",
+                  "name": "\u0110inh Ph\u1ea1m S\u1edf K\u1ef3",
+                  "Facebook": [
+                    " /yeuyeu.tieu.7"
+                  ],
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              },
+              {
+                "id": 152433,
+                "labels": [
+                  "Page"
+                ],
+                "centerNode": "111998",
+                "properties": {
+                  "name": "Chai Th\u1ee7y Tinh Gi\u00e1 R\u1ebb",
+                  "fb_id": "880663935282817",
+                  "url": "/chaithuytinhgiare/",
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              },
+              {
+                "id": 111998,
+                "labels": [
+                  "Person"
+                ],
+                "centerNode": "111998",
+                "properties": {
+                  "skills": "\u0110\u01a1n gi\u1ea3n nh\u01b0 \u0111an r\u1ed5!!!!",
+                  "Address": [
+                    "\u0110\u1ee9c Linh - B\u00ecnh Thu\u1eadn"
+                  ],
+                  "fb_id": "100003775376944",
+                  "link": "/yeuyeu.tieu.7",
+                  "name": "\u0110inh Ph\u1ea1m S\u1edf K\u1ef3",
+                  "Facebook": [
+                    " /yeuyeu.tieu.7"
+                  ],
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              },
+              {
+                "id": 152432,
+                "labels": [
+                  "Page"
+                ],
+                "centerNode": "111998",
+                "properties": {
+                  "name": "Thu\u1ef7 Tinh B\u00ecnh Minh",
+                  "fb_id": "620306754695685",
+                  "url": "/chaithuytinhshop/",
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              },
+              {
+                "id": 111998,
+                "labels": [
+                  "Person"
+                ],
+                "centerNode": "111998",
+                "properties": {
+                  "skills": "\u0110\u01a1n gi\u1ea3n nh\u01b0 \u0111an r\u1ed5!!!!",
+                  "Address": [
+                    "\u0110\u1ee9c Linh - B\u00ecnh Thu\u1eadn"
+                  ],
+                  "fb_id": "100003775376944",
+                  "link": "/yeuyeu.tieu.7",
+                  "name": "\u0110inh Ph\u1ea1m S\u1edf K\u1ef3",
+                  "Facebook": [
+                    " /yeuyeu.tieu.7"
+                  ],
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              },
+              {
+                "id": 105868,
+                "labels": [
+                  "Page"
+                ],
+                "centerNode": "111998",
+                "properties": {
+                  "name": "Chai l\u1ecd h\u0169 th\u1ee7y tinh \u0111\u1eb9p gi\u00e1 t\u1ed1t",
+                  "pagerank": 1.00068421488686,
+                  "fb_id": "164361480564612",
+                  "url": "/trungthuytinh/",
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              },
+              {
+                "id": 111998,
+                "labels": [
+                  "Person"
+                ],
+                "centerNode": "111998",
+                "properties": {
+                  "skills": "\u0110\u01a1n gi\u1ea3n nh\u01b0 \u0111an r\u1ed5!!!!",
+                  "Address": [
+                    "\u0110\u1ee9c Linh - B\u00ecnh Thu\u1eadn"
+                  ],
+                  "fb_id": "100003775376944",
+                  "link": "/yeuyeu.tieu.7",
+                  "name": "\u0110inh Ph\u1ea1m S\u1edf K\u1ef3",
+                  "Facebook": [
+                    " /yeuyeu.tieu.7"
+                  ],
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              },
+              {
+                "id": 152431,
+                "labels": [
+                  "Page"
+                ],
+                "centerNode": "111998",
+                "properties": {
+                  "name": "Chai l\u1ecd h\u0169 th\u1ee7y tinh \u0111\u1eb9p gi\u00e1 s\u1ec9",
+                  "fb_id": "475330929248598",
+                  "url": "/huthuytinhshop/",
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              },
+              {
+                "id": 111998,
+                "labels": [
+                  "Person"
+                ],
+                "centerNode": "111998",
+                "properties": {
+                  "skills": "\u0110\u01a1n gi\u1ea3n nh\u01b0 \u0111an r\u1ed5!!!!",
+                  "Address": [
+                    "\u0110\u1ee9c Linh - B\u00ecnh Thu\u1eadn"
+                  ],
+                  "fb_id": "100003775376944",
+                  "link": "/yeuyeu.tieu.7",
+                  "name": "\u0110inh Ph\u1ea1m S\u1edf K\u1ef3",
+                  "Facebook": [
+                    " /yeuyeu.tieu.7"
+                  ],
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              },
+              {
+                "id": 152430,
+                "labels": [
+                  "Page"
+                ],
+                "centerNode": "111998",
+                "properties": {
+                  "name": "Chai l\u1ecd C\u1ea7n Th\u01a1",
+                  "fb_id": "189246204773396",
+                  "url": "/ChailogiareCanTho/",
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              },
+              {
+                "id": 111998,
+                "labels": [
+                  "Person"
+                ],
+                "centerNode": "111998",
+                "properties": {
+                  "skills": "\u0110\u01a1n gi\u1ea3n nh\u01b0 \u0111an r\u1ed5!!!!",
+                  "Address": [
+                    "\u0110\u1ee9c Linh - B\u00ecnh Thu\u1eadn"
+                  ],
+                  "fb_id": "100003775376944",
+                  "link": "/yeuyeu.tieu.7",
+                  "name": "\u0110inh Ph\u1ea1m S\u1edf K\u1ef3",
+                  "Facebook": [
+                    " /yeuyeu.tieu.7"
+                  ],
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              },
+              {
+                "id": 137411,
+                "labels": [
+                  "Page"
+                ],
+                "centerNode": "111998",
+                "properties": {
+                  "name": "Tinh B\u1ed9t Ngh\u1ec7 Fami",
+                  "fb_id": "798393190208904",
+                  "url": "/Tinhbotnghefami/",
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              },
+              {
+                "id": 111998,
+                "labels": [
+                  "Person"
+                ],
+                "centerNode": "111998",
+                "properties": {
+                  "skills": "\u0110\u01a1n gi\u1ea3n nh\u01b0 \u0111an r\u1ed5!!!!",
+                  "Address": [
+                    "\u0110\u1ee9c Linh - B\u00ecnh Thu\u1eadn"
+                  ],
+                  "fb_id": "100003775376944",
+                  "link": "/yeuyeu.tieu.7",
+                  "name": "\u0110inh Ph\u1ea1m S\u1edf K\u1ef3",
+                  "Facebook": [
+                    " /yeuyeu.tieu.7"
+                  ],
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              },
+              {
+                "id": 152411,
+                "labels": [
+                  "Page"
+                ],
+                "centerNode": "111998",
+                "properties": {
+                  "name": "Jun's Store - Chuy\u00ean th\u1eddi trang tuy\u1ec3n cho b\u00e9",
+                  "fb_id": "1728513427407653",
+                  "url": "/Junstore93/",
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              },
+              {
+                "id": 111998,
+                "labels": [
+                  "Person"
+                ],
+                "centerNode": "111998",
+                "properties": {
+                  "skills": "\u0110\u01a1n gi\u1ea3n nh\u01b0 \u0111an r\u1ed5!!!!",
+                  "Address": [
+                    "\u0110\u1ee9c Linh - B\u00ecnh Thu\u1eadn"
+                  ],
+                  "fb_id": "100003775376944",
+                  "link": "/yeuyeu.tieu.7",
+                  "name": "\u0110inh Ph\u1ea1m S\u1edf K\u1ef3",
+                  "Facebook": [
+                    " /yeuyeu.tieu.7"
+                  ],
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              },
+              {
+                "id": 152410,
+                "labels": [
+                  "Page"
+                ],
+                "centerNode": "111998",
+                "properties": {
+                  "name": "Home Tips",
+                  "fb_id": "725630724284062",
+                  "url": "/HomeTipss/",
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              },
+              {
+                "id": 111998,
+                "labels": [
+                  "Person"
+                ],
+                "centerNode": "111998",
+                "properties": {
+                  "skills": "\u0110\u01a1n gi\u1ea3n nh\u01b0 \u0111an r\u1ed5!!!!",
+                  "Address": [
+                    "\u0110\u1ee9c Linh - B\u00ecnh Thu\u1eadn"
+                  ],
+                  "fb_id": "100003775376944",
+                  "link": "/yeuyeu.tieu.7",
+                  "name": "\u0110inh Ph\u1ea1m S\u1edf K\u1ef3",
+                  "Facebook": [
+                    " /yeuyeu.tieu.7"
+                  ],
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              },
+              {
+                "id": 35506,
+                "labels": [
+                  "Page"
+                ],
+                "centerNode": "111998",
+                "properties": {
+                  "name": "YRIN \u3055\u3093",
+                  "pagerank": 2.294480789918452,
+                  "fb_id": "970672389656908",
+                  "url": "/yrin.san/",
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              },
+              {
+                "id": 111998,
+                "labels": [
+                  "Person"
+                ],
+                "centerNode": "111998",
+                "properties": {
+                  "skills": "\u0110\u01a1n gi\u1ea3n nh\u01b0 \u0111an r\u1ed5!!!!",
+                  "Address": [
+                    "\u0110\u1ee9c Linh - B\u00ecnh Thu\u1eadn"
+                  ],
+                  "fb_id": "100003775376944",
+                  "link": "/yeuyeu.tieu.7",
+                  "name": "\u0110inh Ph\u1ea1m S\u1edf K\u1ef3",
+                  "Facebook": [
+                    " /yeuyeu.tieu.7"
+                  ],
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              },
+              {
+                "id": 22760,
+                "labels": [
+                  "Page"
+                ],
+                "centerNode": "111998",
+                "properties": {
+                  "name": "Shop-For-Gals & Cats",
+                  "pagerank": 4.093140519876034,
+                  "fb_id": "111558655547678",
+                  "url": "/ShopForGals/",
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              },
+              {
+                "id": 111998,
+                "labels": [
+                  "Person"
+                ],
+                "centerNode": "111998",
+                "properties": {
+                  "skills": "\u0110\u01a1n gi\u1ea3n nh\u01b0 \u0111an r\u1ed5!!!!",
+                  "Address": [
+                    "\u0110\u1ee9c Linh - B\u00ecnh Thu\u1eadn"
+                  ],
+                  "fb_id": "100003775376944",
+                  "link": "/yeuyeu.tieu.7",
+                  "name": "\u0110inh Ph\u1ea1m S\u1edf K\u1ef3",
+                  "Facebook": [
+                    " /yeuyeu.tieu.7"
+                  ],
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              },
+              {
+                "id": 152409,
+                "labels": [
+                  "Page"
+                ],
+                "centerNode": "111998",
+                "properties": {
+                  "name": "Minh h\u1ecda c\u1ea3m x\u00fac",
+                  "fb_id": "649478551827615",
+                  "url": "/Minhhoacamxuc/",
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              },
+              {
+                "id": 111998,
+                "labels": [
+                  "Person"
+                ],
+                "centerNode": "111998",
+                "properties": {
+                  "skills": "\u0110\u01a1n gi\u1ea3n nh\u01b0 \u0111an r\u1ed5!!!!",
+                  "Address": [
+                    "\u0110\u1ee9c Linh - B\u00ecnh Thu\u1eadn"
+                  ],
+                  "fb_id": "100003775376944",
+                  "link": "/yeuyeu.tieu.7",
+                  "name": "\u0110inh Ph\u1ea1m S\u1edf K\u1ef3",
+                  "Facebook": [
+                    " /yeuyeu.tieu.7"
+                  ],
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              },
+              {
+                "id": 152408,
+                "labels": [
+                  "Page"
+                ],
+                "centerNode": "111998",
+                "properties": {
+                  "name": "Ruby Corner - Smock & Embroidery Dress",
+                  "fb_id": "1708560996039383",
+                  "url": "/RubyCorner.shop/",
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              },
+              {
+                "id": 111998,
+                "labels": [
+                  "Person"
+                ],
+                "centerNode": "111998",
+                "properties": {
+                  "skills": "\u0110\u01a1n gi\u1ea3n nh\u01b0 \u0111an r\u1ed5!!!!",
+                  "Address": [
+                    "\u0110\u1ee9c Linh - B\u00ecnh Thu\u1eadn"
+                  ],
+                  "fb_id": "100003775376944",
+                  "link": "/yeuyeu.tieu.7",
+                  "name": "\u0110inh Ph\u1ea1m S\u1edf K\u1ef3",
+                  "Facebook": [
+                    " /yeuyeu.tieu.7"
+                  ],
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              },
+              {
+                "id": 28719,
+                "labels": [
+                  "Page"
+                ],
+                "centerNode": "111998",
+                "properties": {
+                  "name": "ASUS",
+                  "pagerank": 9.071623634174468,
+                  "fb_id": "153302874716612",
+                  "url": "/asus.vn/",
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              },
+              {
+                "id": 111998,
+                "labels": [
+                  "Person"
+                ],
+                "centerNode": "111998",
+                "properties": {
+                  "skills": "\u0110\u01a1n gi\u1ea3n nh\u01b0 \u0111an r\u1ed5!!!!",
+                  "Address": [
+                    "\u0110\u1ee9c Linh - B\u00ecnh Thu\u1eadn"
+                  ],
+                  "fb_id": "100003775376944",
+                  "link": "/yeuyeu.tieu.7",
+                  "name": "\u0110inh Ph\u1ea1m S\u1edf K\u1ef3",
+                  "Facebook": [
+                    " /yeuyeu.tieu.7"
+                  ],
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              },
+              {
+                "id": 152407,
+                "labels": [
+                  "Page"
+                ],
+                "centerNode": "111998",
+                "properties": {
+                  "name": "Time  Handmade",
+                  "fb_id": "990462040969867",
+                  "url": "/timeisaluxury/",
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              }
+            ],
+            "relationships": [
+              {
+                "id": 250113,
+                "type": "IS_LIKE",
+                "startNode": 111998,
+                "endNode": 152475,
+                "properties": {
+                  "update_at": "2019-05-15 13:29:00"
+                }
+              },
+              {
+                "id": 250112,
+                "type": "IS_LIKE",
+                "startNode": 111998,
+                "endNode": 150130,
+                "properties": {
+                  "update_at": "2019-05-15 13:29:00"
+                }
+              },
+              {
+                "id": 250111,
+                "type": "IS_LIKE",
+                "startNode": 111998,
+                "endNode": 96596,
+                "properties": {
+                  "update_at": "2019-05-15 13:29:00"
+                }
+              },
+              {
+                "id": 250110,
+                "type": "IS_LIKE",
+                "startNode": 111998,
+                "endNode": 152474,
+                "properties": {
+                  "update_at": "2019-05-15 13:29:00"
+                }
+              },
+              {
+                "id": 250109,
+                "type": "IS_LIKE",
+                "startNode": 111998,
+                "endNode": 152473,
+                "properties": {
+                  "update_at": "2019-05-15 13:29:00"
+                }
+              },
+              {
+                "id": 250108,
+                "type": "IS_LIKE",
+                "startNode": 111998,
+                "endNode": 152472,
+                "properties": {
+                  "update_at": "2019-05-15 13:29:00"
+                }
+              },
+              {
+                "id": 250107,
+                "type": "IS_LIKE",
+                "startNode": 111998,
+                "endNode": 55389,
+                "properties": {
+                  "update_at": "2019-05-15 13:29:00"
+                }
+              },
+              {
+                "id": 250106,
+                "type": "IS_LIKE",
+                "startNode": 111998,
+                "endNode": 21792,
+                "properties": {
+                  "update_at": "2019-05-15 13:29:00"
+                }
+              },
+              {
+                "id": 250105,
+                "type": "IS_LIKE",
+                "startNode": 111998,
+                "endNode": 152471,
+                "properties": {
+                  "update_at": "2019-05-15 13:29:00"
+                }
+              },
+              {
+                "id": 250104,
+                "type": "IS_LIKE",
+                "startNode": 111998,
+                "endNode": 152470,
+                "properties": {
+                  "update_at": "2019-05-15 13:29:00"
+                }
+              },
+              {
+                "id": 250103,
+                "type": "IS_LIKE",
+                "startNode": 111998,
+                "endNode": 152469,
+                "properties": {
+                  "update_at": "2019-05-15 13:29:00"
+                }
+              },
+              {
+                "id": 250041,
+                "type": "IS_LIKE",
+                "startNode": 111998,
+                "endNode": 152436,
+                "properties": {
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              },
+              {
+                "id": 250040,
+                "type": "IS_LIKE",
+                "startNode": 111998,
+                "endNode": 53716,
+                "properties": {
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              },
+              {
+                "id": 250039,
+                "type": "IS_LIKE",
+                "startNode": 111998,
+                "endNode": 152435,
+                "properties": {
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              },
+              {
+                "id": 250038,
+                "type": "IS_LIKE",
+                "startNode": 111998,
+                "endNode": 152434,
+                "properties": {
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              },
+              {
+                "id": 250037,
+                "type": "IS_LIKE",
+                "startNode": 111998,
+                "endNode": 106770,
+                "properties": {
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              },
+              {
+                "id": 250036,
+                "type": "IS_LIKE",
+                "startNode": 111998,
+                "endNode": 152433,
+                "properties": {
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              },
+              {
+                "id": 250035,
+                "type": "IS_LIKE",
+                "startNode": 111998,
+                "endNode": 152432,
+                "properties": {
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              },
+              {
+                "id": 250034,
+                "type": "IS_LIKE",
+                "startNode": 111998,
+                "endNode": 105868,
+                "properties": {
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              },
+              {
+                "id": 250033,
+                "type": "IS_LIKE",
+                "startNode": 111998,
+                "endNode": 152431,
+                "properties": {
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              },
+              {
+                "id": 250032,
+                "type": "IS_LIKE",
+                "startNode": 111998,
+                "endNode": 152430,
+                "properties": {
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              },
+              {
+                "id": 250031,
+                "type": "IS_LIKE",
+                "startNode": 111998,
+                "endNode": 137411,
+                "properties": {
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              },
+              {
+                "id": 249988,
+                "type": "IS_LIKE",
+                "startNode": 111998,
+                "endNode": 152411,
+                "properties": {
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              },
+              {
+                "id": 249987,
+                "type": "IS_LIKE",
+                "startNode": 111998,
+                "endNode": 152410,
+                "properties": {
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              },
+              {
+                "id": 249986,
+                "type": "IS_LIKE",
+                "startNode": 111998,
+                "endNode": 35506,
+                "properties": {
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              },
+              {
+                "id": 249985,
+                "type": "IS_LIKE",
+                "startNode": 111998,
+                "endNode": 22760,
+                "properties": {
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              },
+              {
+                "id": 249984,
+                "type": "IS_LIKE",
+                "startNode": 111998,
+                "endNode": 152409,
+                "properties": {
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              },
+              {
+                "id": 249983,
+                "type": "IS_LIKE",
+                "startNode": 111998,
+                "endNode": 152408,
+                "properties": {
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              },
+              {
+                "id": 249982,
+                "type": "IS_LIKE",
+                "startNode": 111998,
+                "endNode": 28719,
+                "properties": {
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              },
+              {
+                "id": 249981,
+                "type": "IS_LIKE",
+                "startNode": 111998,
+                "endNode": 152407,
+                "properties": {
+                  "update_at": "2019-05-15 13:28:00"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

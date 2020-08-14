@@ -1,0 +1,147 @@
+<!--   Core JS Files   -->
+<script src="{{ url_for('static', filename='assets/js/core/jquery.min.js') }}" type="text/javascript"></script>
+<script src="{{ url_for('static', filename='assets/js/core/popper.min.js') }}" type="text/javascript"></script>
+<script src="{{ url_for('static', filename='js/d3.min.js') }}"></script>
+
+<script src="{{ url_for('static', filename='assets/js/core/bootstrap-material-design.min.js') }}"
+        type="text/javascript"></script>
+{#<script src="https://unpkg.com/default-passive-events"></script>#}
+<script src="{{ url_for('static', filename='assets/js/plugins/perfect-scrollbar.jquery.min.js') }}"></script>
+
+<!--  Notifications Plugin    -->
+<script src="{{ url_for('static', filename='assets/js/plugins/bootstrap-notify.js') }}"></script>
+<!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
+<script src="{{ url_for('static', filename='assets/js/material-dashboard.js') }}?v=2.1.0"></script>
+<!-- Material Dashboard DEMO methods, don't include it in your project! -->
+<script src="{{ url_for('static', filename='assets/demo/demo.js') }}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/plyr/3.5.4/plyr.js"></script>
+<!--Icheck-->
+<script src="{{ url_for('static', filename='assets/iCheck/icheck.min.js') }}"></script>
+<!-- Waitme -->
+<script src="{{ url_for('static', filename='assets/waitMe/waitMe.js') }}"></script>
+<script>
+    const player = new Plyr('#player', {
+        {#autoplay: true#}
+    });
+
+</script>
+
+<script src="{{ url_for('static', filename='js/saveSvgAsPng.js') }}"></script>
+
+<script>
+
+    var data_now, radius = 35, minCollision = 70, max_radius = 35, limit_generate = 10,
+        labels = {
+            'Person': {
+                'fillColor': '#1cbb2c',
+                'radius': radius
+            },
+            'Page': {
+                'fillColor': '#b88cbb',
+                'radius': radius
+            },
+            'Group': {
+                'fillColor': '#f16667',
+                'radius': radius
+            },
+            'Image': {
+                'fillColor': '#579481',
+                'radius': radius
+            },
+            'Album': {
+                'fillColor': '#f79767',
+                'radius': radius
+            },
+            'Status': {
+                'fillColor': '#fcda19',
+                'radius': radius
+            },
+            'Life_Event': {
+                'fillColor': '#405f9e',
+                'radius': radius
+            },
+            'Place': {
+                'fillColor': '#fa5f86',
+                'radius': radius
+            },
+            'Comment': {
+                'fillColor': '#ff75ea',
+                'radius': radius
+            }
+        }
+
+    function showNotification(from, align, message) {
+        $.notify({
+            icon: "add_alert",
+            message: message
+
+        }, {
+            type: 'danger',
+            timer: 1000,
+            placement: {
+                from: from,
+                align: align
+            }
+        });
+    }
+
+    function beforeSend(selector) {
+        $(selector).waitMe({
+            effect: 'bounce',
+            text: '',
+            bg: 'rgba(255,255,255,0.7)',
+            color: '#000'
+        });
+    }
+
+    $(function () {
+
+        $sidebar = $('.sidebar');
+
+        $sidebar_img_container = $sidebar.find('.sidebar-background');
+
+        $full_page = $('.full-page');
+
+        $sidebar_responsive = $('body > .navbar-collapse');
+
+        window_width = $(window).width();
+
+        change_node_color();
+
+        $('#save-change').on('click', function () {
+            max_radius = 35;
+            $('#labelsModal .modal-body input[type="number"]').each(function () {
+                var label_type = $(this).data('type');
+                var value = $(this).val();
+                if (value) {
+                    labels[label_type]['radius'] = parseInt(value);
+                    max_radius = value > max_radius ? value : max_radius;
+                    minCollision = max_radius * 2;
+                }
+            });
+            $('.modal-body input[type="color"]').each(function () {
+                var label_type = $(this).data('type');
+                var value = $(this).val();
+                if (value) {
+                    labels[label_type]['fillColor'] = value;
+                }
+            });
+            change_node_color();
+            if (data_now) {
+                {#$('#neo4jd3').empty()#}
+                init();
+            }
+        });
+
+        $('input[type="color"]').on('change', function (e) {
+            $(this).val(e.target.value);
+        });
+
+        $('button.button-capture').on('click', function (e) {
+            if (!$('svg.neo4jd3-graph').length) {
+                alert("Lỗi! Chưa tồn tại dữ liệu đồ thị.")
+            }
+        });
+
+    });
+</script>

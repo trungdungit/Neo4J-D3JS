@@ -1,0 +1,169 @@
+<!-- Modal -->
+<div class="modal fade" id="labelsModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="exampleModalLabel"><strong>Custom Graph</strong></h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row" style="padding: inherit;">
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label>Person: </label>
+                            <input type="color" name="person" value="#1cbb2c" data-type="Person">
+                            <input type="number" min="10" class="form-control" data-type="Person"
+                                   name="person-size"
+                                   value="35" placeholder="size">
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label>Page: </label>
+                            <input type="color" name="page" value="#b88cbb" data-type="Page">
+                            <input type="number" min="10" class="form-control" data-type="Page" name="page-size"
+                                   value="35" placeholder="size">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label>Group: </label>
+                            <input type="color" name="group" value="#f16667" data-type="Group">
+                            <input type="number" min="10" class="form-control" data-type="Group"
+                                   name="group-size"
+                                   value="35" placeholder="size">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label>Album: </label>
+                            <input type="color" name="album" value="#f79767" data-type="Album">
+                            <input type="number" min="10" class="form-control" data-type="Album"
+                                   name="album-size"
+                                   value="35" placeholder="size">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label>Image: </label>
+                            <input type="color" name="image" value="#fa5f86" data-type="Image">
+                            <input type="number" min="10" class="form-control" data-type="Image"
+                                   name="image-size"
+                                   value="35" placeholder="size">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label>Comment: </label>
+                            <input type="color" name="comment" value="#ff75ea" data-type="Comment">
+                            <input type="number" min="10" class="form-control" data-type="Comment"
+                                   name="comment-size"
+                                   value="35" placeholder="size">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label>Life event: </label>
+                            <input type="color" name="life-event" value="#405f9e" data-type="Life_Event">
+                            <input type="number" min="10" class="form-control" data-type="Life_Event"
+                                   name="life-event-size" value="35" placeholder="size">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label>Place: </label>
+                            <input type="color" name="place" value="#579481" data-type="Place">
+                            <input type="number" min="10" class="form-control" data-type="Place"
+                                   name="place-size"
+                                   value="35" placeholder="size">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label>Status: </label>
+                            <input type="color" name="status" value="#fcda19" data-type="Status">
+                            <input type="number" min="10" class="form-control" data-type="Status"
+                                   name="status-size"
+                                   value="35" placeholder="size">
+                        </div>
+                    </div>
+
+                </div>
+                </li>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+                <button type="button" id="save-change" class="btn btn-primary">Lưu</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="advance-search" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title"><strong>Advance Search</strong></h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" style="margin: 0 0 0 6%;">
+                <div class="row">
+                    <div class="col-md-12 ">
+                        <div class="input-group">
+                            <span class="inline-label">Limit result: </span>
+                            <input class="form-control" type="number" min="1" name="search-text-limit" value="50">
+                        </div>
+
+                    </div>
+                    <div class="col-md-4">
+                        <input type="checkbox" checked name="condition-person">
+                        <label>Person</label>
+                    </div>
+                    <div class="col-md-4">
+                        <input type="checkbox" checked name="condition-page">
+                        <label>Page</label>
+                    </div>
+                    <div class="col-md-4">
+                        <input type="checkbox" checked name="condition-group">
+                        <label>Group</label>
+                    </div>
+                    <div class="col-md-4">
+                        <input type="checkbox" checked name="condition-status">
+                        <label>Status</label>
+                    </div>
+                    <div class="col-md-4">
+                        <input type="checkbox" checked name="condition-comment">
+                        <label>Comment</label>
+                    </div>
+                    <div class="col-md-4">
+                        <input type="checkbox" checked name="condition-place">
+                        <label>Place</label>
+                    </div>
+                    <div class="col-md-4">
+                        <input type="checkbox" checked name="condition-life_Event">
+                        <label>Life_Event</label>
+                    </div>
+                    <div class="col-md-4">
+                        <input type="checkbox" checked name="condition-image">
+                        <label>Image</label>
+                    </div>
+                    <div class="col-md-4">
+                        <input type="checkbox" checked name="condition-album">
+                        <label>Album</label>
+                    </div>
+
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="div-modal-full-information">
+
+</div>

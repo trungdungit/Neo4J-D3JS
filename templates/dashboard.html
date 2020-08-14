@@ -1,0 +1,125 @@
+{% extends "layout/main_layout.html" %}
+
+{% block logo %}
+    <div class="logo">
+        <a href="#" class="simple-text logo-normal">
+            CMC CIST
+        </a>
+    </div>
+{% endblock %}
+
+{% block header %}
+    {{ super() }}
+{#    <form class="navbar-form search-form" id="cypher-search-form">#}
+{#        <div class="input-group no-border">#}
+{#            <input type="text" value="" name="cypher-search" class="form-control"#}
+{#                   placeholder="Cypher Search...">#}
+{#            <button type="submit" class="btn btn-default btn-round btn-just-icon">#}
+{#                <i class="material-icons">search</i>#}
+{#                <div class="ripple-container"></div>#}
+{#            </button>#}
+{#        </div>#}
+{#    </form>#}
+    <form class="navbar-form search-form" id="search-form">
+        <div class="input-group no-border">
+            {% if searchbox %}
+                <input type="text" value="{{ searchbox }}" name="search" class="form-control"
+                   placeholder="Search...">
+            {% else %}
+                <input type="text" value="" name="search" class="form-control"
+                       placeholder="Search...">
+            {% endif %}
+            <button type="submit" class="btn btn-default btn-round btn-just-icon">
+                <i class="material-icons">search</i>
+                <div class="ripple-container"></div>
+            </button>
+            <button type="button" data-toggle="modal" data-target="#advance-search"
+                    class="btn btn-default btn-round btn-just-icon">
+                <i class="fa fa-align-justify"></i>
+            </button>
+
+        </div>
+    </form>
+
+    <!-- Modal -->
+
+{% endblock %}
+
+{% block scripts %}
+    <script>
+
+        $(function () {
+            $('input').iCheck({
+                checkboxClass: 'icheckbox_square-green',
+                increaseArea: '20%' // optional
+            });
+
+            $('form#search-form').on('submit', function (e) {
+                {#console.log($('input[name="condition-person"]').val())#}
+                var search = $('input[name="search"]').val()
+                e.preventDefault();
+                $.ajax({
+                    type: 'POST',
+                    url: "/getdata",
+                    data: {
+                        "search": search,
+                        'condition': $('input[name^="condition-"]').serialize(),
+                        'limit': $('input[name="search-text-limit"]').val()
+                    },
+                    beforeSend: beforeSend('#neo4jd3'),
+                    success: function (response) {
+                        data_now = JSON.parse(response);
+                        if (data_now.results[0].data[0].graph.nodes.length == 0) {
+                            showNotification('top', 'center', "Không tìm thấy dữ liệu nào phù hợp")
+                        }
+                        {#console.log(data_now)#}
+                        init()
+                    },
+                    error: function () {
+                        showNotification('top', 'center', 'Tìm kiếm thất bại')
+                    }
+                })
+                if (document.location.href.indexOf('=') > -1) {
+                    var url = document.location.href.split('=')[0] + '=' + search;
+                } else {
+                    var url = document.location.href + "?search="+search;
+                }
+                window.history.replaceState("", "", url);
+                return false;
+            });
+            if ($('input[name="search"]').val() !== "") {
+                {#alert("!23132")#}
+                $('form#search-form').trigger('submit')
+            }
+
+
+            $('form#cypher-search-form').on('submit', function (e) {
+                e.preventDefault();
+                $.ajax({
+                    type: 'POST',
+                    url: "/getdata",
+                    data: {
+                        "cypher-search": $('input[name="cypher-search"]').val()
+                    },
+                    beforeSend: beforeSend('#neo4jd3'),
+                    success: function (response) {
+                        data_now = JSON.parse(response);
+                        if (data_now.results[0].data[0].graph.nodes.length == 0) {
+                            showNotification('top', 'center', "Không tìm thấy dữ liệu nào phù hợp hoặc cú pháp không phù hợp")
+                        }
+                        init()
+                    },
+                    error: function () {
+                        showNotification('top', 'center', 'Cú pháp sai hoặc không được phép truy cập')
+                        $('#neo4jd3').waitMe('hide')
+                    }
+                })
+                return false
+            });
+
+
+        });
+    </script>
+    <script src="{{ url_for('static', filename='js/neo4jd3.js') }}?v=0.1.1"></script>
+    <script src="{{ url_for('static', filename='js/graphneo4j.js') }}?v=0.1.1"></script>
+{% endblock %}

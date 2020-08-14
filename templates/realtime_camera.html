@@ -1,0 +1,63 @@
+{% extends "layout/main_layout.html" %}
+
+
+{% block logo %}
+    <div class="logo">
+        <a href="/" class="simple-text logo-normal">
+            CMC CIST
+        </a>
+    </div>
+{% endblock %}
+{% block profileimage %}
+    <div class="realtime-image">
+        <img src="{{ url_for('static', filename='assets/img/placeholder.jpg') }}">
+    </div>
+{% endblock %}
+
+{% block header %}
+    {{ super() }}
+{% endblock %}
+
+{% block scripts %}
+    <script>
+        $(function () {
+
+            var recent_id = "";
+            setInterval(ajaxCall, 1000);
+
+            function ajaxCall() {
+                $.ajax({
+                    type: 'GET',
+                    url: "/recent_id",
+                    responseType: 'application/json',
+                    success: function (response) {
+                        if (response.id !== "" && response.id !== recent_id) {
+                            recent_id = response.id;
+                            fullTextSearch(recent_id);
+                            $(".realtime-image img").attr("src", response.link + "?timestamp=" + new Date().getTime());
+                        }
+                    }
+                })
+            }
+
+            function fullTextSearch(text) {
+                $.ajax({
+                    type: 'POST',
+                    url: "/getdata",
+                    data: {
+                        "search": text.toString()
+                    },
+                    success: function (response) {
+                        data_now = JSON.parse(response);
+                        init()
+                    },
+                    error: function () {
+                        showNotification('top', 'center', 'Tìm kiếm thất bại')
+                    }
+                })
+            }
+        });
+    </script>
+    <script src="{{ url_for('static', filename='js/neo4jd3.js') }}?v=0.0.1"></script>
+    <script src="{{ url_for('static', filename='js/graphneo4j.js') }}?v=0.0.1"></script>
+{% endblock %}
